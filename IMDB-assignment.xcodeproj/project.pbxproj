@@ -3,17 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69914348B4FBA0D30E6898B2 /* Pods_IMDB_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E8A88BA249476B96409152 /* Pods_IMDB_assignment.framework */; };
+		DAB566AE24B7ABF31495F237 /* Pods_IMDB_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */; };
 		F01A2F3024360BBC0079481A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F2F24360BBC0079481A /* AppDelegate.swift */; };
 		F01A2F3224360BBC0079481A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F3124360BBC0079481A /* SceneDelegate.swift */; };
 		F01A2F3724360BBC0079481A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01A2F3524360BBC0079481A /* Main.storyboard */; };
 		F01A2F3924360BBF0079481A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01A2F3824360BBF0079481A /* Assets.xcassets */; };
 		F01A2F3C24360BBF0079481A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01A2F3A24360BBF0079481A /* LaunchScreen.storyboard */; };
-		F01A2F4724360BBF0079481A /* IMDB_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F4624360BBF0079481A /* IMDB_assignmentTests.swift */; };
+		F01A2F562436222F0079481A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F552436222F0079481A /* Configuration.swift */; };
+		F01A2F582436223E0079481A /* ENV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F572436223E0079481A /* ENV.swift */; };
+		F01A2F5A2436227E0079481A /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F592436227E0079481A /* URLS.swift */; };
+		F01A2F5C243624320079481A /* VendorAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F5B243624320079481A /* VendorAPIKey.swift */; };
+		F01AA2A624363F90001F5C78 /* URLS+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AA2A524363F90001F5C78 /* URLS+Tests.swift */; };
+		F01AA2A92436402B001F5C78 /* URL+QueryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AA2A82436402B001F5C78 /* URL+QueryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53605A61B2A6B7FBA2D72F8C /* Pods-IMDB-assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.debug.xcconfig"; sourceTree = "<group>"; };
-		821A297BAAC570BBE12C7C43 /* Pods-IMDB-assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.release.xcconfig"; sourceTree = "<group>"; };
-		99E8A88BA249476B96409152 /* Pods_IMDB_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE1E29A053F076701E0CF8F /* Pods-IMDB-assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.release.xcconfig"; sourceTree = "<group>"; };
+		A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D7AEDD2E79DA010003564F /* Pods-IMDB-assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		F01A2F2C24360BBC0079481A /* IMDB-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMDB-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01A2F2F24360BBC0079481A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		F01A2F3124360BBC0079481A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +43,13 @@
 		F01A2F3B24360BBF0079481A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F01A2F3D24360BBF0079481A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F01A2F4224360BBF0079481A /* IMDB-assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMDB-assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F01A2F4624360BBF0079481A /* IMDB_assignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDB_assignmentTests.swift; sourceTree = "<group>"; };
 		F01A2F4824360BBF0079481A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01A2F552436222F0079481A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		F01A2F572436223E0079481A /* ENV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENV.swift; sourceTree = "<group>"; };
+		F01A2F592436227E0079481A /* URLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		F01A2F5B243624320079481A /* VendorAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorAPIKey.swift; sourceTree = "<group>"; };
+		F01AA2A524363F90001F5C78 /* URLS+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLS+Tests.swift"; sourceTree = "<group>"; };
+		F01AA2A82436402B001F5C78 /* URL+QueryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryItem.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69914348B4FBA0D30E6898B2 /* Pods_IMDB_assignment.framework in Frameworks */,
+				DAB566AE24B7ABF31495F237 /* Pods_IMDB_assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,22 +71,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3048F051EA685F245E7A3015 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				99E8A88BA249476B96409152 /* Pods_IMDB_assignment.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C746ED823292C145467031B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53605A61B2A6B7FBA2D72F8C /* Pods-IMDB-assignment.debug.xcconfig */,
-				821A297BAAC570BBE12C7C43 /* Pods-IMDB-assignment.release.xcconfig */,
+				C2D7AEDD2E79DA010003564F /* Pods-IMDB-assignment.debug.xcconfig */,
+				1EE1E29A053F076701E0CF8F /* Pods-IMDB-assignment.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E58DE6FA4D52F95C8B4590B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F01A2F2324360BBC0079481A = {
@@ -86,7 +95,7 @@
 				F01A2F4524360BBF0079481A /* IMDB-assignmentTests */,
 				F01A2F2D24360BBC0079481A /* Products */,
 				C746ED823292C145467031B2 /* Pods */,
-				3048F051EA685F245E7A3015 /* Frameworks */,
+				E58DE6FA4D52F95C8B4590B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +111,8 @@
 		F01A2F2E24360BBC0079481A /* IMDB-assignment */ = {
 			isa = PBXGroup;
 			children = (
+				F01AA2A724364017001F5C78 /* Extensions */,
+				F01A2F542436221B0079481A /* Configuration */,
 				F01A2F52243616BF0079481A /* API */,
 				F01A2F51243615940079481A /* Supporting Files */,
 				F01A2F3D24360BBF0079481A /* Info.plist */,
@@ -112,7 +123,7 @@
 		F01A2F4524360BBF0079481A /* IMDB-assignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				F01A2F4624360BBF0079481A /* IMDB_assignmentTests.swift */,
+				F01AA2A524363F90001F5C78 /* URLS+Tests.swift */,
 				F01A2F4824360BBF0079481A /* Info.plist */,
 			);
 			path = "IMDB-assignmentTests";
@@ -133,8 +144,27 @@
 		F01A2F52243616BF0079481A /* API */ = {
 			isa = PBXGroup;
 			children = (
+				F01A2F592436227E0079481A /* URLS.swift */,
+				F01A2F5B243624320079481A /* VendorAPIKey.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		F01A2F542436221B0079481A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F01A2F552436222F0079481A /* Configuration.swift */,
+				F01A2F572436223E0079481A /* ENV.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F01AA2A724364017001F5C78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F01AA2A82436402B001F5C78 /* URL+QueryItem.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,11 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F01A2F4B24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDB-assignment" */;
 			buildPhases = (
-				AA8AEC233955CE3565017571 /* [CP] Check Pods Manifest.lock */,
+				98F36E3FA895416FB2B27EA7 /* [CP] Check Pods Manifest.lock */,
 				F01A2F2824360BBC0079481A /* Sources */,
 				F01A2F2924360BBC0079481A /* Frameworks */,
 				F01A2F2A24360BBC0079481A /* Resources */,
-				A83D71D8AF92A6F5158695EE /* [CP] Embed Pods Frameworks */,
+				8CBBA194AC99B0BDA4CD0B21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +266,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A83D71D8AF92A6F5158695EE /* [CP] Embed Pods Frameworks */ = {
+		8CBBA194AC99B0BDA4CD0B21 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,7 +283,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA8AEC233955CE3565017571 /* [CP] Check Pods Manifest.lock */ = {
+		98F36E3FA895416FB2B27EA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,7 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01A2F5A2436227E0079481A /* URLS.swift in Sources */,
+				F01A2F562436222F0079481A /* Configuration.swift in Sources */,
+				F01A2F582436223E0079481A /* ENV.swift in Sources */,
 				F01A2F3024360BBC0079481A /* AppDelegate.swift in Sources */,
+				F01A2F5C243624320079481A /* VendorAPIKey.swift in Sources */,
+				F01AA2A92436402B001F5C78 /* URL+QueryItem.swift in Sources */,
 				F01A2F3224360BBC0079481A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01A2F4724360BBF0079481A /* IMDB_assignmentTests.swift in Sources */,
+				F01AA2A624363F90001F5C78 /* URLS+Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +476,7 @@
 		};
 		F01A2F4C24360BBF0079481A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53605A61B2A6B7FBA2D72F8C /* Pods-IMDB-assignment.debug.xcconfig */;
+			baseConfigurationReference = C2D7AEDD2E79DA010003564F /* Pods-IMDB-assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +494,7 @@
 		};
 		F01A2F4D24360BBF0079481A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 821A297BAAC570BBE12C7C43 /* Pods-IMDB-assignment.release.xcconfig */;
+			baseConfigurationReference = 1EE1E29A053F076701E0CF8F /* Pods-IMDB-assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

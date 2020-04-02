@@ -10,12 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   lit-networking:
-    :commit: 90abf87ae8a35d9a9c39d97dba99e2a979860d0f
+    :commit: 79f6fa7e85165f1f06bfc78713e708dcfd834fdc
     :git: https://github.com/mendyEdri/lit-networking
 
 SPEC CHECKSUMS:
   lit-networking: aa5876e6d03bc2b48c0fe91a067366b40815de48
 
-PODFILE CHECKSUM: e95a882822f11153f03bfccd231de101d0ca3830
+PODFILE CHECKSUM: 683972ab1fc2cd49b8c5d9e98656351d60fcefe2
 
 COCOAPODS: 1.8.4

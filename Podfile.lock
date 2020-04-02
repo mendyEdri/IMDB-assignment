@@ -1,0 +1,21 @@
+PODS:
+  - lit-networking (0.1.0)
+
+DEPENDENCIES:
+  - lit-networking (from `https://github.com/mendyEdri/lit-networking`)
+
+EXTERNAL SOURCES:
+  lit-networking:
+    :git: https://github.com/mendyEdri/lit-networking
+
+CHECKOUT OPTIONS:
+  lit-networking:
+    :commit: 90abf87ae8a35d9a9c39d97dba99e2a979860d0f
+    :git: https://github.com/mendyEdri/lit-networking
+
+SPEC CHECKSUMS:
+  lit-networking: aa5876e6d03bc2b48c0fe91a067366b40815de48
+
+PODFILE CHECKSUM: e95a882822f11153f03bfccd231de101d0ca3830
+
+COCOAPODS: 1.8.4

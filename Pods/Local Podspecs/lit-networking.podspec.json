@@ -1,0 +1,22 @@
+{
+  "name": "lit-networking",
+  "version": "0.1.0",
+  "summary": "A short description of lit-networking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cwt-dev/lit-networking-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "edrimendy@gmail.com": "medri@mycwt.com"
+  },
+  "source": {
+    "git": "https://github.com/cwt-dev/lit-networking-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "lit-networking/Classes/**/*"
+}

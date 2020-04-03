@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## lit-networking
+## lit-network
 
 Copyright (c) 2020 mendu77@gmail.com <mendy.edri@carlsonwagonlit.com>
 

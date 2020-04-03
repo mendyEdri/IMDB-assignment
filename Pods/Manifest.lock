@@ -1,21 +1,21 @@
 PODS:
-  - lit-networking (0.1.0)
+  - lit-network (0.1.0)
 
 DEPENDENCIES:
-  - lit-networking (from `https://github.com/mendyEdri/lit-networking`)
+  - lit-network (from `https://github.com/mendyEdri/lit-networking`)
 
 EXTERNAL SOURCES:
-  lit-networking:
+  lit-network:
     :git: https://github.com/mendyEdri/lit-networking
 
 CHECKOUT OPTIONS:
-  lit-networking:
-    :commit: 79f6fa7e85165f1f06bfc78713e708dcfd834fdc
+  lit-network:
+    :commit: 32adb906cc91c1122b473099d9b4358a04a46c63
     :git: https://github.com/mendyEdri/lit-networking
 
 SPEC CHECKSUMS:
-  lit-networking: aa5876e6d03bc2b48c0fe91a067366b40815de48
+  lit-network: 577fa55cc0cb5b2922030c3d4ee46461a8cc196a
 
-PODFILE CHECKSUM: 683972ab1fc2cd49b8c5d9e98656351d60fcefe2
+PODFILE CHECKSUM: b434d966fe18f245ebc7730246fa3eab8a7755b2
 
 COCOAPODS: 1.8.4

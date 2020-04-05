@@ -24,9 +24,8 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lYY-H6-74N">
-                    <rect key="frame" x="0.0" y="234" width="414" height="412"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lYY-H6-74N">
+                    <rect key="frame" x="0.0" y="260" width="414" height="386"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="30" minimumInteritemSpacing="10" id="MDD-BX-i3h">
                         <size key="itemSize" width="240" height="320"/>
@@ -44,7 +43,12 @@
             <constraints>
                 <constraint firstItem="fVd-3C-wQw" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="26" id="7w9-zR-2D1"/>
                 <constraint firstItem="fVd-3C-wQw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="45" id="Cmq-iG-Dn3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="lYY-H6-74N" secondAttribute="bottom" constant="216" id="Gzc-gv-5pf"/>
+                <constraint firstItem="lYY-H6-74N" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="e2s-vz-vNz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lYY-H6-74N" secondAttribute="trailing" id="k2M-di-Re5"/>
+                <constraint firstItem="lYY-H6-74N" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="n5I-p1-ins"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fVd-3C-wQw" secondAttribute="trailing" constant="44" id="roU-md-8ur"/>
+                <constraint firstItem="lYY-H6-74N" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="rw9-DX-QHh"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="140.57971014492756" y="153.34821428571428"/>

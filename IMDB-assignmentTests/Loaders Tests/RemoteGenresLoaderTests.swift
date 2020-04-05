@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import IMDB_assignment
+@testable import IMDB_assignment
 import lit_network
 
 class RemoteGenresLoaderTests: XCTestCase {
@@ -22,7 +22,7 @@ class RemoteGenresLoaderTests: XCTestCase {
     func test_deliverGenreListOnValidData() {
         let (sut, http) = makeSUT()
         
-        expect(sut, toComplete: .success(JSONMockData.genres), when: {
+        expect(sut, toComplete: .success(JSONMockData.list.genres), when: {
             /** Mock HTTPClient complete the passed data so the `sut.load` function will be completed */
             http.complete(withSatus: statusOK, data: JSONMockData.genresData())
         })
@@ -70,12 +70,12 @@ class RemoteGenresLoaderTests: XCTestCase {
 }
 
 struct JSONMockData {
-    static let genre1 = Genre(id: "192", name: "Action")
-    static let genre2 = Genre(id: "192", name: "Action")
+    static let genre1 = Genre(id: 192, name: "Action")
+    static let genre2 = Genre(id: 192, name: "Action")
     
-    static var genres: [Genre] = [JSONMockData.genre1, JSONMockData.genre2]
+    static var list = GenresList(genres:  [JSONMockData.genre1, JSONMockData.genre2])
     
-    static func genresData(genres: [Genre] = [JSONMockData.genre1, JSONMockData.genre2]) -> Data {
-        return try! JSONEncoder().encode(genres)
+    static func genresData(list: GenresList = GenresList(genres:  [JSONMockData.genre1, JSONMockData.genre2])) -> Data {
+        return try! JSONEncoder().encode(list)
     }
 }

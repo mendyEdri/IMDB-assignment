@@ -20,7 +20,8 @@ public struct RemoteGenresLoader: RemoteLoader {
     }
     
     public func load(with url: URL, completion: @escaping (Result) -> Void) {
-        httpClient.get(from: url) { result in
+        let request = URLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30)
+        httpClient.get(with: request) { result in
             switch result {
             case let .success(data, response):
                 completion(GenresLoaderDataMapper.map(data: data, from: response))
@@ -33,16 +34,20 @@ public struct RemoteGenresLoader: RemoteLoader {
     }
 }
 
-struct GenresLoaderDataMapper {
+public struct GenresList: Codable {
+    let genres: [Genre]
+}
+
+fileprivate struct GenresLoaderDataMapper {
     private init() {}
-    private static var OK_200: Int { 200 }
+    private static var ok200: Int { 200 }
     
-    internal static func map(data: Data, from response: HTTPURLResponse) -> RemoteGenresLoader.Result {
-        guard response.statusCode == OK_200,
-        let genres = try? JSONDecoder().decode([Genre].self, from: data) else {
+    static func map(data: Data, from response: HTTPURLResponse) -> RemoteGenresLoader.Result {
+        guard response.statusCode == ok200,
+        let genres = try? JSONDecoder().decode(GenresList.self, from: data) else {
             return .failure(.invalidData)
         }
-        return .success(genres)
+        return .success(genres.genres)
     }
 }
 

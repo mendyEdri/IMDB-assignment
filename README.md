@@ -8,18 +8,20 @@ Please make sure to open `IMDB-assignment.xcworkspace` (not the `.xcodeproj`)
 
 ---
 
+## Project
+
 The project uses 2 pods:
 
 1. `lit_networking` a testable protocol-oriented pod i created recently to deal with network calls.
 
 2. `SDWebImage` the well-known pod for downloading asynchronous images.
 
----
 
 Tests are in the same target, please cmd+u to run the tests.
 
 `CI` scheme is configured for later use in CI platform.
 
+---
 
 ## TODO
 

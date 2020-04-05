@@ -9,10 +9,10 @@
 import Foundation
 
 public struct Genre: Codable, Equatable {
-    let id: String
+    let id: Int
     let name: String
     
-    public init(id: String, name: String) {
+    public init(id: Int, name: String) {
         self.id = id
         self.name = name
     }

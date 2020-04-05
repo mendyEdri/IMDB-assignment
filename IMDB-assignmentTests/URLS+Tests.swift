@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import IMDB_assignment
+@testable import IMDB_assignment
 
 class URLS_Tests: XCTestCase {
 
@@ -15,7 +15,7 @@ class URLS_Tests: XCTestCase {
         Configuration.env = .production
     }
     
-    private let apiKey = IMDBAPIKey()
+    let apiKey = IMDBAPIKey()
     
     func test_genresURL() {
         let expected = URL(string:"https://api.themoviedb.org/3/genre/movie/list?\(apiKey.name)=\(apiKey.value)")

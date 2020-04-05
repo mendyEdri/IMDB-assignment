@@ -5,7 +5,7 @@ target 'IMDB-assignment' do
   pod 'SDWebImage', '~> 5.0'
   
    target 'IMDB-assignmentTests' do
-     inherit! :search_paths
+     pod 'lit-network', :git => 'https://github.com/mendyEdri/lit-networking'
    end
    
 end

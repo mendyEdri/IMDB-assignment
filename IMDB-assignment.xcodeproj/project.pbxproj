@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43F0449C13ED24E7F528E014 /* Pods_IMDB_assignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358A54D5BB09C85EC295503B /* Pods_IMDB_assignmentTests.framework */; };
+		48144847D35D2404D7EFDDD5 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BECE0C58167678A344AD26 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework */; };
 		DAB566AE24B7ABF31495F237 /* Pods_IMDB_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */; };
+		F012A1C52439D12E00017965 /* LoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095D28724375A9800095A31 /* LoaderProtocol.swift */; };
+		F012A1C62439D13200017965 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F592436227E0079481A /* URLS.swift */; };
+		F012A1C72439D13500017965 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F552436222F0079481A /* Configuration.swift */; };
+		F012A1C82439D13900017965 /* ENV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F572436223E0079481A /* ENV.swift */; };
+		F012A1C92439D14200017965 /* RemoteGenresLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095D2812437570100095A31 /* RemoteGenresLoader.swift */; };
+		F012A1CA2439D14C00017965 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095D28D2437601200095A31 /* Genre.swift */; };
+		F012A1CB2439D15400017965 /* VendorAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F5B243624320079481A /* VendorAPIKey.swift */; };
+		F012A1CC2439D16300017965 /* URL+QueryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AA2A82436402B001F5C78 /* URL+QueryItem.swift */; };
 		F01A2F3024360BBC0079481A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F2F24360BBC0079481A /* AppDelegate.swift */; };
 		F01A2F3224360BBC0079481A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F3124360BBC0079481A /* SceneDelegate.swift */; };
 		F01A2F3924360BBF0079481A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01A2F3824360BBF0079481A /* Assets.xcassets */; };
@@ -61,11 +69,13 @@
 
 /* Begin PBXFileReference section */
 		1EE1E29A053F076701E0CF8F /* Pods-IMDB-assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.release.xcconfig"; sourceTree = "<group>"; };
-		358A54D5BB09C85EC295503B /* Pods_IMDB_assignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_assignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BECE0C58167678A344AD26 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_assignment_IMDB_assignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B0D3A87DFFDB940249B06C /* Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		52C77E22917341D2A565E48F /* Pods-IMDB-assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignmentTests/Pods-IMDB-assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B5B7EE1756426513064A535 /* Pods-IMDB-assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignmentTests.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignmentTests/Pods-IMDB-assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D7AEDD2E79DA010003564F /* Pods-IMDB-assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		EACAC865C639704FD14165E9 /* Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F01A2F2C24360BBC0079481A /* IMDB-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMDB-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01A2F2F24360BBC0079481A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		F01A2F3124360BBC0079481A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,7 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F0449C13ED24E7F528E014 /* Pods_IMDB_assignmentTests.framework in Frameworks */,
+				48144847D35D2404D7EFDDD5 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +147,8 @@
 				1EE1E29A053F076701E0CF8F /* Pods-IMDB-assignment.release.xcconfig */,
 				52C77E22917341D2A565E48F /* Pods-IMDB-assignmentTests.debug.xcconfig */,
 				5B5B7EE1756426513064A535 /* Pods-IMDB-assignmentTests.release.xcconfig */,
+				EACAC865C639704FD14165E9 /* Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig */,
+				41B0D3A87DFFDB940249B06C /* Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -145,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */,
-				358A54D5BB09C85EC295503B /* Pods_IMDB_assignmentTests.framework */,
+				26BECE0C58167678A344AD26 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -366,6 +378,7 @@
 				F01A2F3E24360BBF0079481A /* Sources */,
 				F01A2F3F24360BBF0079481A /* Frameworks */,
 				F01A2F4024360BBF0079481A /* Resources */,
+				B9939A10B72050A1DD7EB236 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -454,7 +467,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IMDB-assignmentTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-IMDB-assignment-IMDB-assignmentTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -498,6 +511,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9939A10B72050A1DD7EB236 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -544,7 +574,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F095D28B24375F7A00095A31 /* RemoteGenresLoaderTests.swift in Sources */,
+				F012A1CB2439D15400017965 /* VendorAPIKey.swift in Sources */,
+				F012A1C82439D13900017965 /* ENV.swift in Sources */,
+				F012A1C72439D13500017965 /* Configuration.swift in Sources */,
+				F012A1C52439D12E00017965 /* LoaderProtocol.swift in Sources */,
+				F012A1CC2439D16300017965 /* URL+QueryItem.swift in Sources */,
 				F01AA2A624363F90001F5C78 /* URLS+Tests.swift in Sources */,
+				F012A1C92439D14200017965 /* RemoteGenresLoader.swift in Sources */,
+				F012A1C62439D13200017965 /* URLS.swift in Sources */,
+				F012A1CA2439D14C00017965 /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,7 +760,7 @@
 		};
 		F01A2F4F24360BBF0079481A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52C77E22917341D2A565E48F /* Pods-IMDB-assignmentTests.debug.xcconfig */;
+			baseConfigurationReference = EACAC865C639704FD14165E9 /* Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -742,7 +780,7 @@
 		};
 		F01A2F5024360BBF0079481A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B5B7EE1756426513064A535 /* Pods-IMDB-assignmentTests.release.xcconfig */;
+			baseConfigurationReference = 41B0D3A87DFFDB940249B06C /* Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

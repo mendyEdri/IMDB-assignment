@@ -10,7 +10,7 @@ import Foundation
 
 /** Easy access to URL with components. taks items veridic as a parameter. */
 extension URL {
-    func withItems(_ items: URLQueryItem...) -> URL? {
+    public func withItems(_ items: URLQueryItem...) -> URL? {
         var component = URLComponents(string: self.absoluteString)
         component?.queryItems = items
         return component?.url

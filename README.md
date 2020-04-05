@@ -12,7 +12,7 @@ Please make sure to open `IMDB-assignment.xcworkspace` (not the `.xcodeproj`)
 
 The project uses 2 pods:
 
-1. `lit_networking` a testable protocol-oriented pod i created recently to deal with network calls.
+1. `lit_networking` a testable protocol-oriented pod i created recently to deal with network calls. (https://github.com/mendyEdri/lit-networking)
 
 2. `SDWebImage` the well-known pod for downloading asynchronous images.
 

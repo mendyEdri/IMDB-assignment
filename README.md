@@ -27,3 +27,4 @@ Tests are in the same target, please cmd+u to run the tests.
 
 - [ ] Finish implementing cachable proxy - to save the genres list and load it from cache for speed response 
 - [ ] Add more test - test MVVM models
+- [ ] Make travis build pass 

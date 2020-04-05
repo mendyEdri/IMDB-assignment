@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
 ${BUILT_PRODUCTS_DIR}/lit-network/lit_network.framework

@@ -1,8 +1,16 @@
 PODS:
   - lit-network (0.1.0)
+  - SDWebImage (5.7.0):
+    - SDWebImage/Core (= 5.7.0)
+  - SDWebImage/Core (5.7.0)
 
 DEPENDENCIES:
   - lit-network (from `https://github.com/mendyEdri/lit-networking`)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   lit-network:
@@ -15,7 +23,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   lit-network: 577fa55cc0cb5b2922030c3d4ee46461a8cc196a
+  SDWebImage: a99471f452bdfa0ca52ddf5b1adf2b61cab1d1eb
 
-PODFILE CHECKSUM: b434d966fe18f245ebc7730246fa3eab8a7755b2
+PODFILE CHECKSUM: 3f25a3ad3615790e477c788e372351fec8108a4c
 
 COCOAPODS: 1.8.4

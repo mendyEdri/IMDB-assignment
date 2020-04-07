@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48144847D35D2404D7EFDDD5 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BECE0C58167678A344AD26 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework */; };
-		DAB566AE24B7ABF31495F237 /* Pods_IMDB_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */; };
+		ADAA3395B2376C149FAB30F6 /* Pods_IMDBAssignment_IMDBAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C8C19EF084D49454910054 /* Pods_IMDBAssignment_IMDBAssignmentTests.framework */; };
 		F012A1C52439D12E00017965 /* LoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095D28724375A9800095A31 /* LoaderProtocol.swift */; };
 		F012A1C62439D13200017965 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F592436227E0079481A /* URLS.swift */; };
 		F012A1C72439D13500017965 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A2F552436222F0079481A /* Configuration.swift */; };
@@ -55,6 +54,7 @@
 		F095D2942437761700095A31 /* MovieVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095D2932437761700095A31 /* MovieVideos.swift */; };
 		F095D2962437762E00095A31 /* MovieVideosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095D2952437762E00095A31 /* MovieVideosList.swift */; };
 		F095D2992437778600095A31 /* GenresListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095D2982437778600095A31 /* GenresListViewModel.swift */; };
+		FA95F05C0574E667B150DAC2 /* Pods_IMDBAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9331313046676C52D64D5841 /* Pods_IMDBAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,20 +69,24 @@
 
 /* Begin PBXFileReference section */
 		1EE1E29A053F076701E0CF8F /* Pods-IMDB-assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.release.xcconfig"; sourceTree = "<group>"; };
-		26BECE0C58167678A344AD26 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_assignment_IMDB_assignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF5EAA09372B290CD0B7EEF /* Pods-IMDBAssignment-IMDBAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDBAssignment-IMDBAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-IMDBAssignment-IMDBAssignmentTests/Pods-IMDBAssignment-IMDBAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		41B0D3A87DFFDB940249B06C /* Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		48C8C19EF084D49454910054 /* Pods_IMDBAssignment_IMDBAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDBAssignment_IMDBAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C77E22917341D2A565E48F /* Pods-IMDB-assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignmentTests/Pods-IMDB-assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B5B7EE1756426513064A535 /* Pods-IMDB-assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignmentTests.release.xcconfig"; path = "Target Support Files/Pods-IMDB-assignmentTests/Pods-IMDB-assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDB_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9331313046676C52D64D5841 /* Pods_IMDBAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDBAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36D052398C718C8009B4DDA /* Pods-IMDBAssignment-IMDBAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDBAssignment-IMDBAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-IMDBAssignment-IMDBAssignmentTests/Pods-IMDBAssignment-IMDBAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC2C5462D9E6E183C87DE57 /* Pods-IMDBAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDBAssignment.release.xcconfig"; path = "Target Support Files/Pods-IMDBAssignment/Pods-IMDBAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		C2D7AEDD2E79DA010003564F /* Pods-IMDB-assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		CE714CA5B3F302D7167CAE82 /* Pods-IMDBAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDBAssignment.debug.xcconfig"; path = "Target Support Files/Pods-IMDBAssignment/Pods-IMDBAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		EACAC865C639704FD14165E9 /* Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F01A2F2C24360BBC0079481A /* IMDB-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMDB-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01A2F2C24360BBC0079481A /* IMDBAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDBAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01A2F2F24360BBC0079481A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		F01A2F3124360BBC0079481A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
 		F01A2F3824360BBF0079481A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F01A2F3B24360BBF0079481A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F01A2F3D24360BBF0079481A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F01A2F4224360BBF0079481A /* IMDB-assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMDB-assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01A2F4224360BBF0079481A /* IMDBAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMDBAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01A2F4824360BBF0079481A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F01A2F552436222F0079481A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		F01A2F572436223E0079481A /* ENV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENV.swift; sourceTree = "<group>"; };
@@ -125,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB566AE24B7ABF31495F237 /* Pods_IMDB_assignment.framework in Frameworks */,
+				FA95F05C0574E667B150DAC2 /* Pods_IMDBAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48144847D35D2404D7EFDDD5 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework in Frameworks */,
+				ADAA3395B2376C149FAB30F6 /* Pods_IMDBAssignment_IMDBAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +153,10 @@
 				5B5B7EE1756426513064A535 /* Pods-IMDB-assignmentTests.release.xcconfig */,
 				EACAC865C639704FD14165E9 /* Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig */,
 				41B0D3A87DFFDB940249B06C /* Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig */,
+				CE714CA5B3F302D7167CAE82 /* Pods-IMDBAssignment.debug.xcconfig */,
+				BEC2C5462D9E6E183C87DE57 /* Pods-IMDBAssignment.release.xcconfig */,
+				B36D052398C718C8009B4DDA /* Pods-IMDBAssignment-IMDBAssignmentTests.debug.xcconfig */,
+				2BF5EAA09372B290CD0B7EEF /* Pods-IMDBAssignment-IMDBAssignmentTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -156,8 +164,8 @@
 		E58DE6FA4D52F95C8B4590B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A56C88E6C9906911485C58E1 /* Pods_IMDB_assignment.framework */,
-				26BECE0C58167678A344AD26 /* Pods_IMDB_assignment_IMDB_assignmentTests.framework */,
+				9331313046676C52D64D5841 /* Pods_IMDBAssignment.framework */,
+				48C8C19EF084D49454910054 /* Pods_IMDBAssignment_IMDBAssignmentTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,8 +184,8 @@
 		F01A2F2D24360BBC0079481A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F01A2F2C24360BBC0079481A /* IMDB-assignment.app */,
-				F01A2F4224360BBF0079481A /* IMDB-assignmentTests.xctest */,
+				F01A2F2C24360BBC0079481A /* IMDBAssignment.app */,
+				F01A2F4224360BBF0079481A /* IMDBAssignmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -351,9 +359,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F01A2F2B24360BBC0079481A /* IMDB-assignment */ = {
+		F01A2F2B24360BBC0079481A /* IMDBAssignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F01A2F4B24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDB-assignment" */;
+			buildConfigurationList = F01A2F4B24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDBAssignment" */;
 			buildPhases = (
 				98F36E3FA895416FB2B27EA7 /* [CP] Check Pods Manifest.lock */,
 				F01A2F2824360BBC0079481A /* Sources */,
@@ -365,14 +373,14 @@
 			);
 			dependencies = (
 			);
-			name = "IMDB-assignment";
+			name = IMDBAssignment;
 			productName = "IMDB-assignment";
-			productReference = F01A2F2C24360BBC0079481A /* IMDB-assignment.app */;
+			productReference = F01A2F2C24360BBC0079481A /* IMDBAssignment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F01A2F4124360BBF0079481A /* IMDB-assignmentTests */ = {
+		F01A2F4124360BBF0079481A /* IMDBAssignmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F01A2F4E24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDB-assignmentTests" */;
+			buildConfigurationList = F01A2F4E24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDBAssignmentTests" */;
 			buildPhases = (
 				82E174C406FB0DAD2BD0B832 /* [CP] Check Pods Manifest.lock */,
 				F01A2F3E24360BBF0079481A /* Sources */,
@@ -385,9 +393,9 @@
 			dependencies = (
 				F01A2F4424360BBF0079481A /* PBXTargetDependency */,
 			);
-			name = "IMDB-assignmentTests";
+			name = IMDBAssignmentTests;
 			productName = "IMDB-assignmentTests";
-			productReference = F01A2F4224360BBF0079481A /* IMDB-assignmentTests.xctest */;
+			productReference = F01A2F4224360BBF0079481A /* IMDBAssignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -408,7 +416,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F01A2F2724360BBC0079481A /* Build configuration list for PBXProject "IMDB-assignment" */;
+			buildConfigurationList = F01A2F2724360BBC0079481A /* Build configuration list for PBXProject "IMDBAssignment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -421,8 +429,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F01A2F2B24360BBC0079481A /* IMDB-assignment */,
-				F01A2F4124360BBF0079481A /* IMDB-assignmentTests */,
+				F01A2F2B24360BBC0079481A /* IMDBAssignment */,
+				F01A2F4124360BBF0079481A /* IMDBAssignmentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -467,7 +475,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IMDB-assignment-IMDB-assignmentTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-IMDBAssignment-IMDBAssignmentTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -480,15 +488,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-IMDBAssignment/Pods-IMDBAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-IMDBAssignment/Pods-IMDBAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment/Pods-IMDB-assignment-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDBAssignment/Pods-IMDBAssignment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		98F36E3FA895416FB2B27EA7 /* [CP] Check Pods Manifest.lock */ = {
@@ -506,7 +514,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IMDB-assignment-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-IMDBAssignment-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -519,15 +527,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-IMDBAssignment-IMDBAssignmentTests/Pods-IMDBAssignment-IMDBAssignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-IMDBAssignment-IMDBAssignmentTests/Pods-IMDBAssignment-IMDBAssignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDB-assignment-IMDB-assignmentTests/Pods-IMDB-assignment-IMDB-assignmentTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDBAssignment-IMDBAssignmentTests/Pods-IMDBAssignment-IMDBAssignmentTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -591,7 +599,7 @@
 /* Begin PBXTargetDependency section */
 		F01A2F4424360BBF0079481A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F01A2F2B24360BBC0079481A /* IMDB-assignment */;
+			target = F01A2F2B24360BBC0079481A /* IMDBAssignment */;
 			targetProxy = F01A2F4324360BBF0079481A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -724,10 +732,11 @@
 		};
 		F01A2F4C24360BBF0079481A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2D7AEDD2E79DA010003564F /* Pods-IMDB-assignment.debug.xcconfig */;
+			baseConfigurationReference = CE714CA5B3F302D7167CAE82 /* Pods-IMDBAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IMDB-assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -735,6 +744,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mendyedri.imdb.IMDB-assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -742,10 +752,11 @@
 		};
 		F01A2F4D24360BBF0079481A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EE1E29A053F076701E0CF8F /* Pods-IMDB-assignment.release.xcconfig */;
+			baseConfigurationReference = BEC2C5462D9E6E183C87DE57 /* Pods-IMDBAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IMDB-assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -753,6 +764,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mendyedri.imdb.IMDB-assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -760,12 +772,13 @@
 		};
 		F01A2F4F24360BBF0079481A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EACAC865C639704FD14165E9 /* Pods-IMDB-assignment-IMDB-assignmentTests.debug.xcconfig */;
+			baseConfigurationReference = B36D052398C718C8009B4DDA /* Pods-IMDBAssignment-IMDBAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IMDB-assignmentTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -773,6 +786,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mendyedri.imdb.IMDB-assignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -780,12 +795,13 @@
 		};
 		F01A2F5024360BBF0079481A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B0D3A87DFFDB940249B06C /* Pods-IMDB-assignment-IMDB-assignmentTests.release.xcconfig */;
+			baseConfigurationReference = 2BF5EAA09372B290CD0B7EEF /* Pods-IMDBAssignment-IMDBAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IMDB-assignmentTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -793,6 +809,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mendyedri.imdb.IMDB-assignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -801,7 +819,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F01A2F2724360BBC0079481A /* Build configuration list for PBXProject "IMDB-assignment" */ = {
+		F01A2F2724360BBC0079481A /* Build configuration list for PBXProject "IMDBAssignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F01A2F4924360BBF0079481A /* Debug */,
@@ -810,7 +828,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F01A2F4B24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDB-assignment" */ = {
+		F01A2F4B24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDBAssignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F01A2F4C24360BBF0079481A /* Debug */,
@@ -819,7 +837,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F01A2F4E24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDB-assignmentTests" */ = {
+		F01A2F4E24360BBF0079481A /* Build configuration list for PBXNativeTarget "IMDBAssignmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F01A2F4F24360BBF0079481A /* Debug */,

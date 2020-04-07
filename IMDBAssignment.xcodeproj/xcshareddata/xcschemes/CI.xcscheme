@@ -8,16 +8,16 @@
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "NO"
+            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F01A2F4124360BBF0079481A"
-               BuildableName = "IMDB-assignmentTests.xctest"
-               BlueprintName = "IMDB-assignmentTests"
-               ReferencedContainer = "container:IMDB-assignment.xcodeproj">
+               BuildableName = "IMDBAssignmentTests.xctest"
+               BlueprintName = "IMDBAssignmentTests"
+               ReferencedContainer = "container:IMDBAssignment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F01A2F2B24360BBC0079481A"
-               BuildableName = "IMDB-assignment.app"
-               BlueprintName = "IMDB-assignment"
-               ReferencedContainer = "container:IMDB-assignment.xcodeproj">
+               BuildableName = "IMDBAssignment.app"
+               BlueprintName = "IMDBAssignment"
+               ReferencedContainer = "container:IMDBAssignment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F01A2F4124360BBF0079481A"
-               BuildableName = "IMDB-assignmentTests.xctest"
-               BlueprintName = "IMDB-assignmentTests"
-               ReferencedContainer = "container:IMDB-assignment.xcodeproj">
+               BuildableName = "IMDBAssignmentTests.xctest"
+               BlueprintName = "IMDBAssignmentTests"
+               ReferencedContainer = "container:IMDBAssignment.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F01A2F2B24360BBC0079481A"
-            BuildableName = "IMDB-assignment.app"
-            BlueprintName = "IMDB-assignment"
-            ReferencedContainer = "container:IMDB-assignment.xcodeproj">
+            BuildableName = "IMDBAssignment.app"
+            BlueprintName = "IMDBAssignment"
+            ReferencedContainer = "container:IMDBAssignment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

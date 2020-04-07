@@ -9,7 +9,7 @@
 import Foundation
 import lit_network
 
-public enum LoaderError: Swift.Error {
+public enum LoaderError: Error {
     case invalidData
     case connectivity
     case authFailed

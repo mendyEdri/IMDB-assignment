@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:IMDB-assignment.xcodeproj">
+      location = "group:/Users/mendyedri/Development/iOS/IMDB2/IMDB-assignment/IMDBAssignment.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

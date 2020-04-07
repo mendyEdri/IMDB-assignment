@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import IMDB_assignment
+@testable import IMDBAssignment
 
 class URLS_Tests: XCTestCase {
 

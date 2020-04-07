@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import IMDB_assignment
+@testable import IMDBAssignment
 import lit_network
 
 class RemoteGenresLoaderTests: XCTestCase {

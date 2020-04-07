@@ -1,10 +1,10 @@
 use_frameworks!
 
-target 'IMDB-assignment' do
+target 'IMDBAssignment' do
   pod 'lit-network', :git => 'https://github.com/mendyEdri/lit-networking'
   pod 'SDWebImage', '~> 5.0'
   
-   target 'IMDB-assignmentTests' do
+   target 'IMDBAssignmentTests' do
      pod 'lit-network', :git => 'https://github.com/mendyEdri/lit-networking'
    end
    

@@ -735,8 +735,9 @@
 			baseConfigurationReference = CE714CA5B3F302D7167CAE82 /* Pods-IMDBAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96VXC495K7;
 				INFOPLIST_FILE = "IMDB-assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -756,8 +757,9 @@
 			baseConfigurationReference = BEC2C5462D9E6E183C87DE57 /* Pods-IMDBAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96VXC495K7;
 				INFOPLIST_FILE = "IMDB-assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -777,8 +779,10 @@
 			baseConfigurationReference = B36D052398C718C8009B4DDA /* Pods-IMDBAssignment-IMDBAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96VXC495K7;
 				INFOPLIST_FILE = "IMDB-assignmentTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -792,7 +796,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -801,8 +805,10 @@
 			baseConfigurationReference = 2BF5EAA09372B290CD0B7EEF /* Pods-IMDBAssignment-IMDBAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96VXC495K7;
 				INFOPLIST_FILE = "IMDB-assignmentTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -816,7 +822,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,6 +1,0 @@
-framework module Pods_IMDB_assignment {
-  umbrella header "Pods-IMDB-assignment-umbrella.h"
-
-  export *
-  module * { export * }
-}

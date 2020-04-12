@@ -1,4 +1,6 @@
 os: osx
 osx_image: xcode11.1
 language: swift
-script: xcodebuild clean build test -project IMDBAssignment.xcodeproj -scheme "CI" CODE_SIGN_IDENTITY="" CODE_SIGN_REQUIRED=NO
+script:
+- pod install
+- xcodebuild clean build test -project IMDBAssignment.xcodeproj -scheme "CI" CODE_SIGN_IDENTITY="" CODE_SIGN_REQUIRED=NO
